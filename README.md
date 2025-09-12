@@ -1,2 +1,2 @@
-# moyerportfolio.github.io
-My portfolio that will house my programming projects.
+# moyerportfolio
+My website that will house my portfolio & programming projects.
