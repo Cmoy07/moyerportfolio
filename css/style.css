@@ -19,7 +19,7 @@ body {
     background-color: rgb(202, 147, 79);
 }
 
-
+/*Index page section*/
 #hero_section {
     text-align: center;
     background-color: rgb(169, 108, 65);
@@ -64,6 +64,31 @@ body {
 #qualifs_p {
     text-align: left;
 }
+
+/*About page section*/
+
+.about_p {
+    text-align:center;
+    font-size: 20px;  
+}
+
+#about_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(169, 108, 65);
+    border-radius: 8px;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 10px;
+     
+}
+
+
+
+
+
+/*links, buttons, & contacts*/
 
 .button {
     background-color: #7d6d46;
