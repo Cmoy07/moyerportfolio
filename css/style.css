@@ -2,7 +2,43 @@
     font-family: sans-serif;
 }
 
+body {
+    color: black;
+    background-color: rgb(202, 147, 79);
+}
+
+.header-img {
+    width: 50%;
+    border: 3px solid black; 
+    border-radius: 20px;
+}
+
+.container-decor {
+    background-color: rgb(169, 108, 65);
+    border-radius: 8px;
+    border: 3px solid black;
+    padding: 15px;
+    font-size: 16px;
+    display: block;
+    margin: 10px;
+}
+
+.custom-btn {
+    color: black;
+    font-size: 16px;
+    background-color: #7d6d46;
+    
+    border: 3px solid black;
+    padding: 15px;
+}
+
+.custom-btn:hover {
+    background-color: #625637;
+    border: 3px solid black;
+}
 
 @media (max-width: 600px) {
-    
+    .header-img {
+        width: 75%;
+    }
 }
