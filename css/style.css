@@ -13,6 +13,10 @@ body {
     border-radius: 20px;
 }
 
+.thumbnail {
+  width: 50%;
+}
+
 .container-decor {
     background-color: rgb(169, 108, 65);
     border-radius: 8px;
@@ -58,8 +62,28 @@ body {
   right: 40%;
 }
 
+.proj-desc-p {
+  text-wrap-mode:  wrap;
+  width: 40rem;
+
+}
+
+.disc-p {
+  text-wrap-mode: wrap;
+  width: 40rem;
+}
+
 @media (max-width: 768px) {
     .header-img {
-        width: 75%;
+      width: 75%;
+    }
+    .thumbnail {
+      width: 75%;
+    }
+    .proj-desc-p {
+      width: auto;
+    }
+    .disc-p {
+      width: auto;
     }
 }
